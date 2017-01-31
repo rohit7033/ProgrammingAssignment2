@@ -46,7 +46,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## it exists. Otherwise the inverse will be caluclated.
 ########### This function assumes that the cached ###########
 ########### inverse is correct and is the inverse ###########
-########### inverse of the stored matrix.         ###########
+########### of the stored matrix.                 ###########
 
 cacheSolve <- function(x, ...) {
   inv <- x$getinverse()
